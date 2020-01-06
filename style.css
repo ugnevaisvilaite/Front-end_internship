@@ -1,0 +1,66 @@
+ .split{
+  height: 100%;
+  position:fixed;
+  top: 0;
+  
+}
+.left{
+  width: 20%;
+  left: 0;
+  background-color: #a89d93;
+  padding: 10px 10px 10px 10px;
+  overflow-y: scroll;
+}
+
+.right {
+  overflow-y: hidden;
+  width: 80%;
+  right: 0;
+  background-color: lightblue;
+  overflow-x:hidden;
+}
+
+.centered {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   text-align: center;
+}
+
+.image{
+  display:inline;
+}
+
+ul {
+  list-style-type: none;
+ }
+
+.preview, .selected{
+  position:center;
+}
+
+   
+.thumb {
+  width:200px;
+  height: 200px;
+}
+
+.preview{
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h2{
+  color: darkblue;
+  text-align: center;
+}
+
+.image{
+  width:200px;
+  height: 200px;
+}
+
+
